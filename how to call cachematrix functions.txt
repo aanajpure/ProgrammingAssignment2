@@ -1,0 +1,21 @@
+> source('C:/Users/Archana/Coursera/R_Programming/Week_3/ProgrammingAssignment2/cachematrix.R')
+> n <- makeCacheMatrix(rbind(c(1,2), c(3,4)))
+> cacheSolve(n)
+     [,1] [,2]
+[1,] -2.0  1.0
+[2,]  1.5 -0.5
+> cacheSolve(n)
+getting cached data
+     [,1] [,2]
+[1,] -2.0  1.0
+[2,]  1.5 -0.5
+> n <- makeCacheMatrix(rbind(c(5,6), c(7,8)))
+> cacheSolve(n)
+     [,1] [,2]
+[1,] -4.0  3.0
+[2,]  3.5 -2.5
+> cacheSolve(n)
+getting cached data
+     [,1] [,2]
+[1,] -4.0  3.0
+[2,]  3.5 -2.5
